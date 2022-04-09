@@ -1,0 +1,178 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.container-fluid{
+    padding:5% 15%;
+}
+
+
+h1 {  
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    line-height: 1.5;   
+    font-weight: 900;
+}
+
+
+.navbar{
+    padding-bottom:6rem;
+}
+
+.navbar-brand{
+   font-family: "ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+}
+
+
+#features{
+    padding:10% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    color:#ff4c68;
+   margin-bottom: 5%;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size:3rem;
+}
+
+.test-image{
+    width:30%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px;
+}
+
+#pricing{
+    padding:10% 10%;
+    text-align: center;
+}
+
+.pricing-col{
+    padding:3% 2%;
+}
+
+.pricing-desc{
+    font-size: 1rem;
+}
+
+.card-body{
+    text-align: center;
+    padding:3%;
+}
+
+.card-btn{
+    width:80%;
+}
+
+@media(max-width:1480px)
+{
+
+    #title{
+        text-align: center;
+    }
+
+
+     .title-image{
+         position: static;
+         transform: rotate(0);
+         width:70%;
+     }
+
+     
+    h1 {  
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        line-height: 1.5;   
+        font-weight: bold;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+    color:#fff;
+}
+
+.cta-desc{
+    font-size: 3.5rem;
+    padding-top: 5%;
+}
+
+.ctc-btn{
+    margin:3% 2% 2% 0;
+}
+
+
+ #footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.icon-footer{
+    padding:1%;
+}
+
+.footer-desc{
+    font-size:1.5rem;
+} 
